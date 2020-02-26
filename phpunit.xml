@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/8.0/phpunit.xsd"
+         bootstrap="vendor/autoload.php"
+         executionOrder="depends,defects"
+         forceCoversAnnotation="true"
+         beStrictAboutCoversAnnotation="true"
+         beStrictAboutOutputDuringTests="true"
+         beStrictAboutTodoAnnotatedTests="true"
+         verbose="true">
+    <php>
+        <const name="API_KEY" value="686802313197"/>
+        <const name="API_SECRET" value="a9b85f04803d196fd68a775cd1aa1d92"/>
+        <const name="CONTA_PAGAR_CATEGORIA_SAQUE" value="Repasses ao iFriend"/>
+        <const name="CONTA_RECEBER_CATEGORIA_PAGAMENTO_CLIENTE" value="Adiantamento de Clientes" />
+        <const name="CATEGORIA_SERVICO_AGENDAMENTO_OS" value="Clientes - Serviços Prestados" />
+        <const name="DESCRICAO_NOTA_FMT" value="%1$s %.2f REFERENTES A PRESTAÇÃO DE SERVIÇOS NO QUAL FORAM RECEBIDOS %1$s %.2f DO CLIENTE\nATRAVÉS DE PAGAMENTO REALIZADO VIA PAY PAL" />
+        
+        <const name="CONTA_CORRENTE" value="Caixinha"/>
+        <const name="CONTA_PAYPAL" value="PayPal" />
+        <const name="CIDADE_PRESTACAO_SERVICO" value="RIO DE JANEIRO (RJ)" />
+        <const name="CODIGO_SERVICO_MUNICIPAL" value="09.02.01" />
+        <const name="CODIGO_SERVICO_LC116" value="9.02" />
+        <const name="TIPO_TRIBUTACAO_SERVICOS" value="01" />
+        <const name="CODIGO_NBS" value="118056100" />
+        <const name="BASE_ISS" value="100" />
+        
+        <const name="SERVICO_AGENDAMENTO_RETEM_ISS" value="N" />
+
+        <const name="FIXAR_COFINS" value="" />
+        <const name="FIXAR_CSLL" value="" />
+        <const name="FIXAR_INSS" value="" />
+        <const name="FIXAR_IRRF" value="" />
+        <const name="FIXAR_ISS" value="" />
+        <const name="FIXAR_PIS" value="" />
+
+        <const name="ALIQ_COFINS" value="0" />
+        <const name="ALIQ_CSLL" value="0" />
+        <const name="ALIQ_INSS" value="0" />
+        <const name="ALIQ_IRRF" value="0" />
+        <const name="ALIQ_ISS" value="0" />
+        <const name="ALIQ_PIS" value="0" />
+        <const name="ALIQ_RED_BASE_INSS" value="0" />
+
+        <const name="RETEM_COFINS" value="N" />
+        <const name="RETEM_CSLL" value="N" />
+        <const name="RETEM_INSS" value="N" />
+        <const name="RETEM_IRRF" value="N" />
+        <const name="RETEM_PIS" value="N" />
+
+        <const name="VALOR_COFINS" value="0" />
+        <const name="VALOR_CSLL" value="0" />
+        <const name="VALOR_INSS" value="0" />
+        <const name="VALOR_IRRF" value="0" />
+        <const name="VALOR_ISS" value="0" />
+        <const name="VALOR_PIS" value="0" />
+    </php>
+    <testsuites>
+        <testsuite name="Omie PHP SDK Tests">
+            <directory suffix="Test.php">tests</directory>
+        </testsuite>
+    </testsuites>
+
+    <filter>
+        <whitelist processUncoveredFilesFromWhitelist="true">
+            <directory suffix=".php">src</directory>
+        </whitelist>
+    </filter>
+</phpunit>

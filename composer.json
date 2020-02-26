@@ -1,0 +1,23 @@
+{
+    "name": "glauberportella/omie-php-sdk",
+    "description": "Omie ERP PHP SDK",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Glauber Portella",
+            "email": "glauberportella@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Omie\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0"
+    }
+}

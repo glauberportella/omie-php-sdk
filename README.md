@@ -6,6 +6,27 @@ Library to use for Omie ERP integrations.
 
 `composer require glauberportella/omie-php-sdk`
 
+# Tests
+
+For test edit phpunit.xml constants to represent your OMIE APP KEY and APP SECRET
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/8.0/phpunit.xsd"
+         bootstrap="vendor/autoload.php"
+         executionOrder="depends,defects"
+         forceCoversAnnotation="true"
+         beStrictAboutCoversAnnotation="true"
+         beStrictAboutOutputDuringTests="true"
+         beStrictAboutTodoAnnotatedTests="true"
+         verbose="true">
+    <php>
+        <const name="API_KEY" value="686802313197"/>
+        <const name="API_SECRET" value="a9b85f04803d196fd68a775cd1aa1d92"/>
+        ...
+```
+
 # License
 
 Copyright 2020 Glauber Portella

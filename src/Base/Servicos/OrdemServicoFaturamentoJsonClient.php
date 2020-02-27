@@ -15,7 +15,7 @@ class OrdemServicoFaturamentoJsonClient extends OmieJsonClientAbstract {
      *
      * @var string
      */
-    public static $_WsdlUri='http://app.omie.com.br/api/v1/servicos/osp/?WSDL';
+    public static $_WsdlUri='https://app.omie.com.br/api/v1/servicos/osp/?WSDL';
     /**
      * The PHP SoapClient object
      *
@@ -27,7 +27,7 @@ class OrdemServicoFaturamentoJsonClient extends OmieJsonClientAbstract {
      *
      * @var string
      */
-    public static $_EndPoint='http://app.omie.com.br/api/v1/servicos/osp/';
+    public static $_EndPoint='https://app.omie.com.br/api/v1/servicos/osp/';
 
     /**
      * Send a SOAP request to the server

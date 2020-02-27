@@ -14,7 +14,7 @@ class CategoriasCadastroJsonClient extends OmieJsonClientAbstract {
      *
      * @var string
      */
-    public static $_WsdlUri='http://app.omie.com.br/api/v1/geral/categorias/?WSDL';
+    public static $_WsdlUri='https://app.omie.com.br/api/v1/geral/categorias/?WSDL';
     /**
      * The PHP SoapClient object
      *
@@ -26,7 +26,7 @@ class CategoriasCadastroJsonClient extends OmieJsonClientAbstract {
      *
      * @var string
      */
-    public static $_EndPoint='http://app.omie.com.br/api/v1/geral/categorias/';
+    public static $_EndPoint='https://app.omie.com.br/api/v1/geral/categorias/';
 
     /**
      * Send a SOAP request to the server

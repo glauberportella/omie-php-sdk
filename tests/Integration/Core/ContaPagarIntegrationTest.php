@@ -131,7 +131,6 @@ final class ContaPagarIntegrationTest extends PHPUnit\Framework\TestCase
         
         try {
             $service = new \Omie\Core\ContaPagar($this->app);
-            print_r($contaPagar);
             $status = $service->insert($contaPagar);
             $this->assertTrue(isset($status->codigo_status), 'Status nao possui codigo_status definido.');
         } catch (\Exception $e) {

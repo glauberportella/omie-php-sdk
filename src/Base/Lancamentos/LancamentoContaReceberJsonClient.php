@@ -14,7 +14,7 @@ class LancamentoContaReceberJsonClient extends OmieJsonClientAbstract {
      *
      * @var string
      */
-    public static $_WsdlUri='http://app.omie.com.br/api/v1/financas/contareceber/?WSDL';
+    public static $_WsdlUri='https://app.omie.com.br/api/v1/financas/contareceber/?WSDL';
     /**
      * The PHP SoapClient object
      *
@@ -26,7 +26,7 @@ class LancamentoContaReceberJsonClient extends OmieJsonClientAbstract {
      *
      * @var string
      */
-    public static $_EndPoint='http://app.omie.com.br/api/v1/financas/contareceber/';
+    public static $_EndPoint='https://app.omie.com.br/api/v1/financas/contareceber/';
 
     /**
      * Send a SOAP request to the server

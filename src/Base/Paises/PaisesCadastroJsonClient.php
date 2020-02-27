@@ -11,7 +11,7 @@ class PaisesCadastroJsonClient extends \Omie\Base\OmieJsonClientAbstract {
      *
      * @var string
      */
-    public static $_WsdlUri='http://app.omie.com.br/api/v1/geral/paises/?WSDL';
+    public static $_WsdlUri='https://app.omie.com.br/api/v1/geral/paises/?WSDL';
     /**
      * The PHP SoapClient object
      *
@@ -23,7 +23,7 @@ class PaisesCadastroJsonClient extends \Omie\Base\OmieJsonClientAbstract {
      *
      * @var string
      */
-    public static $_EndPoint='http://app.omie.com.br/api/v1/geral/paises/';
+    public static $_EndPoint='https://app.omie.com.br/api/v1/geral/paises/';
 
     /**
      * Send a SOAP request to the server

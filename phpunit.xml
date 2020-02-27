@@ -9,8 +9,8 @@
          beStrictAboutTodoAnnotatedTests="true"
          verbose="true">
     <php>
-        <const name="API_KEY" value="686802313197"/>
-        <const name="API_SECRET" value="a9b85f04803d196fd68a775cd1aa1d92"/>
+        <const name="API_KEY" value="923280410052"/>
+        <const name="API_SECRET" value="938c775fc79303f719910a99ded8c853"/>
         <const name="CONTA_PAGAR_CATEGORIA_SAQUE" value="Repasses ao Fornecedor"/>
         <const name="CONTA_RECEBER_CATEGORIA_PAGAMENTO_CLIENTE" value="Adiantamento de Clientes" />
         <const name="CATEGORIA_SERVICO_AGENDAMENTO_OS" value="Clientes - Serviços Prestados" />
